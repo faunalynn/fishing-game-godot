@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c800fee125dtw"]
+
+[ext_resource type="Script" uid="uid://b7q2mfrj3odnk" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node" unique_id=254266324]
+script = ExtResource("1_ig7tw")
+
+[node name="GameData" type="Node" parent="." unique_id=200208027]
+
+[node name="SceneContainer" type="Node2D" parent="." unique_id=1318222714]
