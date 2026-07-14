@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://8qjstapewekk"]
+
+[ext_resource type="Script" uid="uid://dis2f51p2xawi" path="res://port.gd" id="1_krwo4"]
+[ext_resource type="PackedScene" uid="uid://56mqrypnuypv" path="res://dialogue_box.tscn" id="2_hl5ak"]
+
+[node name="Port" type="Node2D" unique_id=21665753]
+script = ExtResource("1_krwo4")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1710138346]
+
+[node name="NPCContainer" type="Node2D" parent="." unique_id=173770385]
+
+[node name="DepartButton" type="Button" parent="." unique_id=694156829]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="DialogueBox" parent="." unique_id=2036470011 instance=ExtResource("2_hl5ak")]

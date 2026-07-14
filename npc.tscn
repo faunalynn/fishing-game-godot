@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bjrsehtd6rvw"]
+
+[ext_resource type="Script" uid="uid://wt2ew376d3ax" path="res://npc.gd" id="1_ideak"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qoxxn"]
+
+[node name="NPC" type="Node2D" unique_id=2080230332]
+script = ExtResource("1_ideak")
+
+[node name="placeholder" type="ColorRect" parent="." unique_id=1450077896]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1019538134]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1709475320]
+shape = SubResource("RectangleShape2D_qoxxn")
